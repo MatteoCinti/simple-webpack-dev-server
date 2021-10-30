@@ -1,0 +1,40 @@
+{
+  "name": "simple-webpack-dev-server",
+  "version": "1.0.0",
+  "description": "A really simple webpack 5 with only a dev-server. Prepared for Sass, Babel and PostCSS, with some configurations specific to the </Salt> consulting company.",
+  "main": "postcss.config.js",
+  "keywords": [],
+  "author": "Matteo Cinti",
+  "license": "MIT",
+  "scripts": {
+    "serve": "webpack serve",
+    "test": "jest --coverage",
+    "lint": "eslint '**/*.js'",
+    "lint-watch": "nodemon --exec 'npm run lint --silent'"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.4.0",
+    "eslint": "^7.28.0",
+    "eslint-config-salt": "^1.1.0",
+    "eslint-import-resolver-webpack": "^0.13.1",
+    "eslint-plugin-import": "^2.25.2",
+    "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.3.1",
+    "postcss-loader": "^6.2.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.2.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatteoCinti/simple-webpack-dev-server.git"
+  }
+}
